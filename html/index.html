@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Carnet des Saveurs - Accueil</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../data/logo-png.png" alt="Le Carnet des Saveurs Logo">
+        </div>
+        <div class="header-content">
+            <h1>Le Carnet des Saveurs</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="top10.html">Top 10</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="carousel">
+                <button class="btn" id="prev">&#10096;</button>
+                <button class="btn" id="next">&#10097;</button>
+                <ul>
+                    <li class="slide active">
+                        <img src="../data/restau1.jpg" alt="image carousel">
+                        <div class="image-description">
+                            Description de l'image 1
+                        </div>
+                    </li>
+                    <li class="slide">
+                        <img src="../data/restau2.jpg" alt="image carousel">
+                        <div class="image-description">
+                            Description de l'image 2
+                        </div>
+                    </li>
+                    <li class="slide">
+                        <img src="../data/restau3.jpg" alt="image carousel">
+                        <div class="image-description">
+                            Description de l'image 3
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+        </section>
+    </main>
+    <script src="../script/caroussel.js"></script>
+</body>
+</html>
