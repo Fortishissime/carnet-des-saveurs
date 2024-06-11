@@ -12,7 +12,7 @@
             <img src="../data/logo-png.png" alt="Le Carnet des Saveurs Logo">
         </div>
         <div class="header-content">
-            <h1>Le Carnet des Saveurs</h1>
+            <h1 id="titre-principal">Le Carnet des Saveurs</h1>
             <nav>
                 <ul>
                     <li><a href="index.html">Accueil</a></li>
@@ -21,11 +21,19 @@
             </nav>
         </div>
     </header>
+
+    <nav id="dropdown-menu" class="hidden">
+        <ul>
+            <li><a href="#link1">Lien 1</a></li>
+            <li><a href="#link2">Lien 2</a></li>
+            <li><a href="#link3">Lien 3</a></li>
+            <li><a href="#link4">Lien 4</a></li>
+        </ul>
+    </nav>
+    
     <main>
         <section>
             <div class="carousel">
-                <button class="btn" id="prev">&#10096;</button>
-                <button class="btn" id="next">&#10097;</button>
                 <ul>
                     <li class="slide active">
                         <img src="../data/restau1.jpg" alt="image carousel">
@@ -49,7 +57,19 @@
                 </ul>
             </div>
         </section>
+
+        <h1 id="bons-plans-titre">Les Bons Plans de la semaine ! </h1>
+        <hr id="bons-plans-line">
+        <section>
+            <div id="vignettes-container">
+                <script src="../script/vignette.js"></script>
+            </div>
     </main>
+
+    <footer>
+        <h3>Copyright. A</h3>
+    </footer>
     <script src="../script/caroussel.js"></script>
+    <script src="../script/menu.js"></script>
 </body>
 </html>

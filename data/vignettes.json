@@ -1,0 +1,27 @@
+[
+    {
+        "titre": "Paris On Fire",
+        "description": "Description de la vignette 1",
+        "banniere": "../data/vignette-1.jpg"
+    },
+    {
+        "titre": "BOOOOM !!",
+        "description": "Avec l'arrivée de Boom Boom à Porte de la Villette, c'est près de 20 kiosques food qui sont prêt à vous accueillir pour passer un moment convivial en famille ou entre amis ! ",
+        "banniere": "../data/boom.png"
+    },
+    {
+        "titre": "Vignette 3",
+        "description": "Description de la vignette 3",
+        "banniere": "../data/maru.png"
+    },
+    {
+        "titre": "Vignette 3",
+        "description": "Description de la vignette 3",
+        "banniere": "image3.jpg"
+    },
+    {
+        "titre": "NOUVEAU RESTAURANT",
+        "description": "Voici un nouveau restaurant",
+        "banniere": "image3.jpg"
+    }
+]
